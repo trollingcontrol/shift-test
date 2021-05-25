@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ShiftTest</string>
+    <string name="greeting_text">Приветствие</string>
+    <string name="register_button_text">Регистрация</string>
+    <string name="name_edit_placeholder">Имя</string>
+    <string name="surname_edit_placeholder">Фамилия</string>
+    <string name="password_placeholder">Пароль</string>
+    <string name="password_repeat_placeholder">Повтор пароля</string>
+    <string name="date_not_set">Дата рождения не выбрана</string>
+    <string name="name_too_short">Имя должно быть не менее 2 символов</string>
+    <string name="surname_too_short">Фамилия должна быть не менее 2 символов</string>
+    <string name="password_too_short">Пароль должен быть не менее 6 символов</string>
+    <string name="passwords_not_equal">Пароли не совпадают</string>
+    <string name="alert_title">Приветствие</string>
+    <string name="alert_message">Здравствуйте, %s %s</string>
+    <string name="ok_text">OK</string>
+</resources>
