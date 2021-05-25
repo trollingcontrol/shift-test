@@ -37,6 +37,7 @@
 
     <EditText
         android:id="@+id/passwordEdit"
+        android:inputType="textPassword"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
@@ -47,6 +48,7 @@
 
     <EditText
         android:id="@+id/passwordRepeatEdit"
+        android:inputType="textPassword"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
