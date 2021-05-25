@@ -8,54 +8,54 @@
         android:id="@+id/nameEdit"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="10dp"
-        android:hint="@string/name_edit_placeholder" />
+        android:hint="@string/name_edit_placeholder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/surnameEdit"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="10dp"
-        android:hint="@string/surname_edit_placeholder" />
+        android:hint="@string/surname_edit_placeholder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <DatePicker
         android:id="@+id/datePicker"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/nameEdit"
-        app:layout_constraintBottom_toTopOf="@id/passwordEdit"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="32dp"
         android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp" />
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@id/passwordEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameEdit" />
 
     <EditText
         android:id="@+id/passwordEdit"
-        android:inputType="textPassword"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="10dp"
-        android:hint="@string/password_placeholder" />
+        android:layout_marginBottom="64dp"
+        android:hint="@string/password_placeholder"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/passwordRepeatEdit"
-        android:inputType="textPassword"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="10dp"
-        android:hint="@string/password_repeat_placeholder" />
+        android:layout_marginBottom="64dp"
+        android:hint="@string/password_repeat_placeholder"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/registerButton"
